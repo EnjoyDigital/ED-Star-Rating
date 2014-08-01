@@ -20,3 +20,11 @@ $(function(){
 });
 </script>
 ```
+
+###Create the element and given value
+
+```html
+<div class="stars" data-amount="3.65">
+
+</div>
+```
