@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="starRating.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.stars').starRating();
+		});
+	</script>
+	<style type="text/css">
+		.stars .star{
+			width: 42px;
+			height: 41px;
+			float: left;
+			margin-right: 5px;
+			background-image: url(img/star_yellow.png);
+		}
+
+		.stars .star.half{
+			background-image: url(img/star_yellow_half.png);
+		}
+	</style>
+</head>
+<body>
+	<div class="stars" data-amount="3.7"></div>
+</body>
+</html>
