@@ -3,7 +3,7 @@
  * a set of star elements, including half values
  * @return mixed
  */
-$.fn.starRating = function(){
+$.fn.edStarRating = function(){
 	'use strict';
 
 	return this.each(function(){
